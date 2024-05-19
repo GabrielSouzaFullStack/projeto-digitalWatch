@@ -18,5 +18,5 @@ function fixTime(time){
     return time < 10 ? '0' +  time : time;
 }
 
+clockTime();
 setInterval(clockTime, 1000)
-console.log(date)
